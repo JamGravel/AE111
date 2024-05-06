@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffffa5;
+        }
+        
+      
+        h1, h2 {
+            color: #0e0437;
+        }
+        
+       
+        .info-box {
+            background-color: #e0dcffff;
+            border: 1px solid #514d4d;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: none; 
+        }
+
+        
+        .show-info-btn {
+            background-color: #21387c;
+            color: rgb(222, 221, 221);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .container {
+            width: 100%;
+            max-width: 1000px; /* Ancho máximo del contenedor */
+            margin: 0 auto; /* Centrar el contenedor en la página */
+            overflow: hidden;
+        }
+        .image {
+            float: center; /* Hacer que la imagen flote a la izquierda */
+            margin-right: 20px; /* Margen derecho para separar la imagen del texto */
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Cuestionario</h1>
+    
+    
+
+    <button class="show-info-btn" onclick="showInfo('info1')">Cual es la ley que protege el software en Mexico?</button>
+    <button class="show-info-btn" onclick="showInfo('info2')">Qué tipos de delitos informáticos relacionados con el
+        software se contemplan en la legislación mexicana?</button>
+        <button class="show-info-btn" onclick="showInfo('info3')">¿Qué son los derechos de autor?</button>
+        <button class="show-info-btn" onclick="showInfo('info4')">¿Qué es la pirateria?</button>
+        <button class="show-info-btn" onclick="showInfo('info5')">¿Falsificacion de software?¿Qué es?</button>
+        <button class="show-info-btn" onclick="showInfo('info6')">¿Qué medidas usar para prevenir la pirateria y falsificacion de software?</button>
+        <button class="show-info-btn" onclick="showInfo('info7')">¿Qué es el acceso no autorizado?</button>
+        <button class="show-info-btn" onclick="showInfo('info8')">¿Qué es el sabotaje informatico?</button>
+        <button class="show-info-btn" onclick="showInfo('info9')">¿Qué es el fraude informatico?</button>
+        <button class="show-info-btn" onclick="showInfo('info10')">¿A qué se refiere el espionaje o fuga de datos?</button>
+    
+
+    <div id="info1" class="info-box">
+        <h2>Ley que protege la informacion en Mexico</h2>
+        <p>La LFDA es la que se encarga de proteger el software en Mexico, de acuerdo con esta ley, el software está protegido como una obra literaria, y se considera una creación intelectual original expresada por cualquier medio o soporte, tangible o intangible.</p>
+    </div>
+    
+    <div id="info2" class="info-box">
+        <h2> ¿Qué tipos de delitos informáticos relacionados con el
+            software se contemplan en la legislación mexicana?</h2>
+        <p>Acceso ilícito a sistemas y equipos de cómputo.
+            Daño a sistemas y equipos de cómputo.
+            Fraude informático.
+            Violación de derechos de autor y propiedad intelectual.
+            Interferencia en el funcionamiento de sistemas informáticos.
+            Amenazas y extorsiones informáticas.</p>
+    </div>
+
+    <div id="info3" class="info-box">
+        <h2>¿Que son los "Derechos de autor"?</h2>
+        <p>los derechos legales que protegen las obras creativas relacionadas con el software y otros productos informáticos. Estos derechos protegen la propiedad intelectual de los creadores y les otorgan control sobre el uso y la distribución de sus obras.</p>
+    </div>
+
+    <div id="info4" class="info-box">
+        <h2>¿Qué es la Pirateria de software?</h2>
+        <p>es una forma de violación de los derechos de autor que implica la reproducción, distribución o uso no autorizado de programas informáticos protegidos por derechos de autor
+            tiene consecuencias legales y económicas significativas, incluyendo la pérdida de ingresos para los desarrolladores y editores legítimos de software, la pérdida de empleos en la industria tecnológica y la exposición a posibles sanciones legales para aquellos que infringen los derechos de autor.
+        </p>
+    </div>
+
+    <div id="info5" class="info-box">
+        <h2>¿falsificación de software?¿Qué es?
+        </h2>
+        <p>ES el acto de producir copias ilegales de programas, esto con el objetivo 
+            de engañar, estafar a usuarios y obtener beneficios economid¿cos de forma
+            fraudulenta, como manipulacion o incluir malware en el software distribuido.
+
+        </p>
+    </div>
+
+    <div id="info6" class="info-box">
+        <h2> Medidas se pueden tomar para prevenir
+            la piratería y la falsificación de software</h2>
+        <p>Para prevenir estas cosas, se deben tomar medidas tecnologicas y 
+            legales, ya sea el implementar caracteristicas de seguridad, utilizar sistemas de DRM que ayudan a impedir 
+            su copia o uso en dispopsitivos no permitidos, etc.
+        </p>
+    </div>
+
+    <div id="info7" class="info-box">
+        <h2>¿Qué es el acceso no autorizado a un sistema informatico</h2>
+        <p>Es cuando se accede a un software de forma ilicita, usando 
+            programas de terceros o eliminando sistemas de seguridad y violando la seguridad del programa.
+        </p>
+    </div>
+
+    <div id="info8" class="info-box">
+        <h2>¿Qué es el "Sabotaje informatico"?</h2>
+        <p>Son las acciones con el fin de dañar, interrumpir o destruir redes o datos, ya 
+            sean malware, DDOS, phishing, ataques a la infraestructura o sabotaje interno.
+        </p>
+    </div>
+
+    <div id="info9" class="info-box">
+        <h2>¿Qué es un fraude informatico?¿que tipos hay?</h2>
+        <p>Es el uso indebido de teconologias para cometer engaños, fraudes y robos con el motivo 
+            de obtener beneficios economicos y mas cosas de forma ilegal. y algunos son:
+            <li> 
+                Phishing: consiste en enviar correos falsos con el fin de engañar y obtener informacion confidencial
+            </li>
+            <li> Ransomware: Es un tipo de malware que bloquea el accesos a los archivos y 
+                los delincuentes exigen dinero a cambio de desbloquear o restaurar el acceso.
+            </li>
+            <li>Fraude de identidad: Es el uso indebido de la informacion personal, ya sea numero, nombre, etc para cometer delitos.</li>
+        </p>
+    </div>
+
+    <div id="info10" class="info-box">
+        <h2>¿Qué es el espionaje o fuga de datos?</h2>
+        <p> es una situación en la que información confidencial o sensible es obtenida, transferida o revelada de manera no autorizada a personas, organizaciones o entidades externas, ya sea 
+            el acceso no autorizado, robo de datos, ataques ciberneticos o debilidades en sistemas.
+        </p>
+    </div>
+
+    <script>
+       
+        function showInfo(infoId) {
+            
+            document.getElementById(infoId).style.display = "block";
+        }
+    </script>
+</body>
+</html>
